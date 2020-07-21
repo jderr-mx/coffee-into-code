@@ -5561,10 +5561,10 @@ emojis-list@^3.0.0:
   resolved "https://registry.yarnpkg.com/emojis-list/-/emojis-list-3.0.0.tgz#5570662046ad29e2e916e71aae260abdff4f6a78"
   integrity sha512-/kyM18EfinwXZbno9FyUGeFh87KC8HRQBQGildHZbEuRyWFOmv1U10o9BBp8XVZDVNNuQKyIGIu5ZYAAXJ0V2Q==
 
-empress-blog-coffee-into-code-template@*:
-  version "0.0.0"
-  resolved "https://registry.yarnpkg.com/empress-blog-coffee-into-code-template/-/empress-blog-coffee-into-code-template-0.0.0.tgz#3daf74de3366d6ff73f9d191e908f37025d23990"
-  integrity sha512-2xtPwMDNnvMywS8GgZnrOz+Zr1BsUFLf/uESheFxg/jCXlskjBDASjygx5gZ2gkQ7YaY3B5gTN4UrfclI3rgLQ==
+empress-blog-coffee-into-code-template@0.0.2:
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/empress-blog-coffee-into-code-template/-/empress-blog-coffee-into-code-template-0.0.2.tgz#b36f82749ac1a3246d9895e0453f725a2181b26b"
+  integrity sha512-mBLZJA1udi5LbCGFwNbC/erPJcH3dC4ft6rKCE236gScVcXcB0vjxHwTDGUge2l3bt9FaAz5h2HxyFPv+ipCjw==
   dependencies:
     ember-cli-babel "^7.20.5"
     ember-cli-htmlbars "^5.2.0"
