@@ -25,7 +25,7 @@ module.exports = function(environment) {
 
     blog: {
       title: 'Coffee Into Code',
-      description: 'C8H10N4O2 => {}',
+      description: 'Coffee into Code -- C8H10N4O2 => {}',
       logo: '/images/cic_logo.png',
 
       navigation: [{
