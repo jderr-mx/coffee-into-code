@@ -24,17 +24,17 @@ module.exports = function(environment) {
     },
 
     blog: {
-      title: 'empress-blog',
-      description: 'Static Blog System - Built with Ember',
+      title: 'Coffee Into Code',
+      description: 'C8H10N4O2 => {}',
       logo: '/images/cic_logo.png',
 
       navigation: [{
         label: 'Home',
         route: 'index'
       }, {
-        label: 'Built by Chris Manson',
+        label: 'About',
         route: 'page',
-        id: 'chris-manson'
+        id: 'about'
       }]
     }
   };
