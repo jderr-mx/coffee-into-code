@@ -38,6 +38,10 @@ export default class PostRoute extends Route{
         name: 'twitter:image:alt',
         content: post.title
       },
+      {
+        name: 'twitter:description',
+        content: post.content
+      },
     ];
     this.headData.headTags = headTags;
   }
