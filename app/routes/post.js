@@ -32,7 +32,7 @@ export default class PostRoute extends Route{
       },
       {
         name: 'twitter:image',
-        content: post.image
+        content: `${document.location.host}${post.image}`
       },
       {
         name: 'twitter:image:alt',
