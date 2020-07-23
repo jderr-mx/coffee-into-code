@@ -1,6 +1,7 @@
 import Route from '@ember/routing/route';
 import { inject as service } from '@ember/service';
 import { hash } from 'rsvp';
+import config from 'coffee-into-code/config/environment';
 
 export default class PostRoute extends Route{
   @service headData;
@@ -32,7 +33,7 @@ export default class PostRoute extends Route{
       },
       {
         name: 'twitter:image',
-        content: `${window.origin}${post.image}`
+        content: `${config.blog.host}${post.image}`
       },
       {
         name: 'twitter:image:alt',
