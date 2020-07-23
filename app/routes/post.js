@@ -31,7 +31,7 @@ export default class PostRoute extends Route{
         content: post.title
       },
       {
-        name: 'twitter:image:src',
+        name: 'twitter:image',
         content: `${window.origin}${post.image}`
       },
       {
