@@ -5625,7 +5625,7 @@ emojis-list@^3.0.0:
   resolved "https://registry.yarnpkg.com/emojis-list/-/emojis-list-3.0.0.tgz#5570662046ad29e2e916e71aae260abdff4f6a78"
   integrity sha512-/kyM18EfinwXZbno9FyUGeFh87KC8HRQBQGildHZbEuRyWFOmv1U10o9BBp8XVZDVNNuQKyIGIu5ZYAAXJ0V2Q==
 
-empress-blog-coffee-into-code-template@^0.0.4:
+empress-blog-coffee-into-code-template@*:
   version "0.0.4"
   resolved "https://registry.yarnpkg.com/empress-blog-coffee-into-code-template/-/empress-blog-coffee-into-code-template-0.0.4.tgz#79eef57747dca3f9173f64c373666fae4084864a"
   integrity sha512-+0sDprD40A3rTgAWyniX5986bM04U0sYjYjvKi02ZrnMcfRhNl3pUKKMonDkrUsTGMlBYNBmKVM5MVQWinCkCQ==

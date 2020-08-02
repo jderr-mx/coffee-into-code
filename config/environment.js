@@ -35,8 +35,9 @@ module.exports = function(environment) {
         label: 'About',
         route: 'page',
         id: 'about'
-      }]
-    }
+      }],
+      twitter: '@johnderrdotnet'
+    },
   };
 
   if (environment === 'development') {
