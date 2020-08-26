@@ -1,7 +1,7 @@
 ---
 name: John Derr
 id: john
-image: /images/chris.jpg
+image: /images/john.jpg
 cover:
 website:
 twitter: johnderrdotnet
