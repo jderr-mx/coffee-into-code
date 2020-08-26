@@ -9,7 +9,7 @@ authors:
   - john
 date: Mon Jul 20 2020 22:32:50 GMT-0400 (Eastern Daylight Time)
 tags:
-  - new
+  - life 
 ---
 The trash should probably be on fire but the sun is still up in the picture so maybe it doesn't work
 <br>
