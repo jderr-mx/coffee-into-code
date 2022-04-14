@@ -1,0 +1,10 @@
+
+{{#let (get model.errors 0) as |error|}}
+
+<header>
+    <h1>{{error.status}}</h1>
+    <p>{{error.title}}</p>
+    {{#link-to 'index'}}Home{{/link-to}}
+</header>
+
+{{/let}}

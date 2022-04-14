@@ -1,0 +1,19 @@
+<HeadLayout />
+<div class="container mx-auto md:w-2/3">
+  <header class="flex justify-center mt-4">
+    <div class="flex items-center mb-8">
+      <img src="{{blog.logo}}" alt="{{blog.title}}" />
+      <nav class="ml-8 mt-4">
+        <Navigation />
+      </nav>
+    </div>
+  </header>
+  <main id="site-main" class="mt-4 ">
+    {{!-- All the main content gets inserted here, index.hbs, post.hbs, etc --}}
+    {{outlet}}
+  </main>
+  {{!-- The footer at the very bottom of the screen --}}
+  <footer class="my-4 flex justify-center font-bold text-sm text-gray-700">
+    <span class="mr-4">&copy;{{date format="YYYY"}}</span> {{#link-to 'index'}}{{blog.title}}{{/link-to}}
+  </footer>
+</div>
