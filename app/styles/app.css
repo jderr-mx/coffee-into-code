@@ -5,7 +5,3 @@
 .quick-link {
   @apply font-bold text-gray-700;
 }
-
-a {
-  @apply font-bold
-}
