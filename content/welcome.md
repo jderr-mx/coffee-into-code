@@ -4,6 +4,7 @@ image: /images/trash-paris.jpg
 imageMeta:
   attribution:
   attributionLink:
+  altText: Dumpster non fire
 featured: true
 authors:
   - john

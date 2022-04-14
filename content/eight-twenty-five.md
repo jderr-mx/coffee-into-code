@@ -4,6 +4,7 @@ image: /images/winnie-wfh.jpg
 imageMeta:
   attribution:
   attributionLink:
+  altText: My dog Winnie looks on
 featured: true
 authors: 
   - john

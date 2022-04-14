@@ -4,12 +4,12 @@ Re-usable card for linking to posts
 <article class="rounded overflow-hidden shadow-lg mt-4">
   {{#link-to 'post' @post.id}}
     <div class="post-card-content p-2 border-b-1 border border-t-0 border-r-0 border-l-0 bg-gray-100">
-      <span class="text-gray-500 font-light text-xs">{{moment-format @post.date "M/D/YYYY"}}</span>
-      <h2 class="text-2xl font-bold text-gray-800">{{@post.title}}</h2>
+      <span class="text-orange-800 text-xs">{{moment-format @post.date "M/D/YYYY"}}</span>
+      <h1 class="text-2xl font-bold text-gray-800">{{@post.title}}</h1>
     </div>
     <div class="p-2">
       {{#if @post.image}}
-        <img class="h-64 w-full object-cover mb-4" src="{{@post.image}}" />
+        <img class="h-64 w-full object-cover mb-4" src="{{@post.image}}" alt={{this.altText}}/>
       {{/if}}
       <p>
         {{this.contentSummary}}
@@ -20,7 +20,7 @@ Re-usable card for linking to posts
       <div class="my-4">
       {{#each @post.tags as |tag|}}
         {{#link-to 'tag' tag.id}}
-          <span class="text-gray-500 rounded-full bg-gray-300 py-2 px-4 mr-2 text-sm">#{{tag.name}}</span>
+          <span class="text-gray-800 rounded-full bg-gray-300 py-2 px-4 mr-2 text-sm">#{{tag.name}}</span>
         {{/link-to}}
       {{/each}}
       </div>

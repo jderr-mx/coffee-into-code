@@ -1,5 +1,5 @@
 <ul class="flex" role="menu">
-    {{#each blog.navigation as |navigation|}}
+    {{#each this.blog.navigation as |navigation|}}
       <li class="{{if (route-is navigation.route) 'nav-current'}} mr-8 hover:no-underline" role="menuitem">
         {{#if navigation.id}}
           {{#link-to navigation.route navigation.id}} {{navigation.label}} {{/link-to}}
