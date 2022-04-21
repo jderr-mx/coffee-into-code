@@ -4,6 +4,11 @@ const EmberApp = require('ember-cli/lib/broccoli/ember-app');
 
 module.exports = function(defaults) {
   let app = new EmberApp(defaults, {
+    'ember-cli-uglify': {
+      uglify: {
+        compress: false
+      },
+    },
     fingerprint: {
       extensions: ['js', 'css', 'map']
     },
