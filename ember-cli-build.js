@@ -9,6 +9,10 @@ module.exports = function(defaults) {
         compress: false
       },
     },
+    sourcemaps: {
+      enabled: true,
+      extensions: ['js'],
+    },
     fingerprint: {
       extensions: ['js', 'css', 'map']
     },
